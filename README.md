@@ -14,10 +14,10 @@ Random Forest
 XGBoost
 
 **Key Results**
-Maximum accuracy achieved: 93% (Random Forest)
-Best overall model: XGBoost (after hyperparameter tuning)
-Recall remained low (~0.27), indicating challenges in detecting positive cancer cases
-Accuracy alone was not sufficient due to class imbalance
+Maximum accuracy achieved: 93% (Random Forest).
+Best overall model: XGBoost (after hyperparameter tuning).
+Recall remained low (~0.27), indicating challenges in detecting positive cancer cases.
+Accuracy alone was not sufficient due to class imbalance.
 
 **Conclusion**
 Cervical cancer remains a growing and unevenly distributed health burden in West Africa. While machine learning models show promise, improving recall, data quality, and early detection strategies is essential for more effective prediction and intervention.
