@@ -2,7 +2,7 @@
 # **Lifestyle-Based Cervical Cancer Risk Prediction and Population Burden Analysis in West Africa**
 
 ## **Objective**
-This project investigates the relationship between lifestyle-related risk factors and cervical cancer outcomes using machine learning techniques. It also explores the broader population burden of cervical cancer across West African countries using Global Burden of Disease (GBD) data.
+This project aims to analyse lifestyle-related risk factors and predict cervical cancer risk using machine learning models, while also examining the population burden of the disease across West African countries.
 
 
 
@@ -61,19 +61,18 @@ These results highlight the trade-off between accuracy and recall in imbalanced 
 
 
 ## **Population Burden Analysis (West Africa)**
-* Cervical cancer remains a **significant and persistent public health issue** in West Africa.
-* Incidence and prevalence trends show **regional variation across countries and age groups**.
-* Higher burden is observed in **reproductive and older age groups**, highlighting the need for targeted interventions.
+* Cervical cancer remains a significant and persistent public health issue in West Africa.
+* Incidence and prevalence trends show regional variation across countries and age groups.
+* Higher burden is observed in reproductive and older age groups, highlighting the need for targeted interventions.
 
 
 
 ## **Conclusion**
 This study demonstrates that machine learning can support cervical cancer risk prediction, but performance is heavily influenced by class imbalance.
 
-While ensemble models such as Random Forest and XGBoost improve detection, **recall remains the most critical metric** in this context.
+While ensemble models such as Random Forest and XGBoost improve detection, recall remains the most critical metric in this context.
 
 Improving early detection will require:
-
 * Better data quality and representation
 * Enhanced screening programs
 * Continued optimisation of predictive models
