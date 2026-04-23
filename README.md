@@ -2,13 +2,11 @@
 # **Lifestyle-Based Cervical Cancer Risk Prediction and Population Burden Analysis in West Africa**
 
 ## **Objective**
-
 This project investigates the relationship between lifestyle-related risk factors and cervical cancer outcomes using machine learning techniques. It also explores the broader population burden of cervical cancer across West African countries using Global Burden of Disease (GBD) data.
 
 
 
 ## **Dataset Description**
-
 Two main datasets were used:
 
 * **Individual-level dataset:**
@@ -20,7 +18,6 @@ Two main datasets were used:
 
 
 ## **Models Used**
-
 The following machine learning models were implemented and compared:
 
 * Logistic Regression (baseline model)
@@ -32,38 +29,30 @@ To address class imbalance, **random oversampling** and **threshold tuning** wer
 
 
 ## **Key Results**
-
 * The dataset exhibited **severe class imbalance** (very few positive cancer cases).
 
 * **Accuracy was not a reliable metric**, as models could perform well while failing to detect positive cases.
-
 * After applying oversampling and threshold tuning:
 
   * **Logistic Regression (Oversampled):**
-
     * Accuracy: ~0.78
     * Recall: ~0.18
 
   * **XGBoost (Tuned + Threshold = 0.05):**
-
     * Accuracy: ~0.76
     * Recall: ~0.55
 
   * **Random Forest (Tuned + Threshold):**
-
     * Accuracy: ~0.61
     * **Highest Recall: ~0.82**
 
 * **Best model for detection:** Random Forest (highest recall)
-
 * **Best balanced performance:** XGBoost
-
 These results highlight the trade-off between accuracy and recall in imbalanced medical datasets.
 
 
 
 ## **Key Insights**
-
 * Clinical screening variables showed stronger predictive power than lifestyle factors.
 * Lifestyle variables were generally **right-skewed**, indicating lower exposure levels for most individuals.
 * Correlation analysis helped identify the most relevant features for prediction.
@@ -72,7 +61,6 @@ These results highlight the trade-off between accuracy and recall in imbalanced 
 
 
 ## **Population Burden Analysis (West Africa)**
-
 * Cervical cancer remains a **significant and persistent public health issue** in West Africa.
 * Incidence and prevalence trends show **regional variation across countries and age groups**.
 * Higher burden is observed in **reproductive and older age groups**, highlighting the need for targeted interventions.
@@ -80,7 +68,6 @@ These results highlight the trade-off between accuracy and recall in imbalanced 
 
 
 ## **Conclusion**
-
 This study demonstrates that machine learning can support cervical cancer risk prediction, but performance is heavily influenced by class imbalance.
 
 While ensemble models such as Random Forest and XGBoost improve detection, **recall remains the most critical metric** in this context.
@@ -91,10 +78,8 @@ Improving early detection will require:
 * Enhanced screening programs
 * Continued optimisation of predictive models
 
----
 
 ## **Future Work**
-
 * Explore advanced imbalance techniques (e.g., SMOTE, cost-sensitive learning)
 * Incorporate more diverse and higher-quality datasets
 * Deploy models in real-world screening support systems
